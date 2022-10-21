@@ -4,7 +4,7 @@
 * Daniel Yakovlev
 
 ## Description
-A webstie that takes user input through radio buttons and outputs a programming language they should learn
+A website that takes user input through radio buttons and outputs a programming language they should learn
 
 ## Github Pages Link
 <https://yakovdan98.github.io/language-picker/>
