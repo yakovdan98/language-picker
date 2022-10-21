@@ -18,11 +18,17 @@ body {
   color: azure;
 }
 
+.jumbotron button {
+  background-color:rgb(132, 50, 65);
+  border-color: black;
+}
 .my-4 {
   border-color: azure;
 
 }
+
+
 .container {
   padding: 10px;
-  background-color:rgb(249, 236, 239);
+  background-color:rgb(245, 213, 221);
 }
