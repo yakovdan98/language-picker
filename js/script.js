@@ -39,6 +39,12 @@ function languagePicker(answer1, answer2, answer3, answer4, answer5){
   else if(answer1 === "option1" && answer2 === "option2" && answer3 === "option3" && answer4 === "option2" && answer5 === "option3"){
     return "Assembly";
   }
+  else if(answer1 === "option3" && answer2 === "option1" && answer3 === "option1" && answer4 === "option1" && answer5 === "option1") {
+    return "Kotlin";
+  }
+  else if(answer1 === "option2" && answer2 === "option3" && answer3 === "option1" && answer4 === "option3" && answer5 === "option1") {
+    return "GO";
+  }
   else{
   return "Java";
   }

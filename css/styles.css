@@ -1,3 +1,28 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color: pink;
+}
+.jumbotron {
+  background-color: rgb(103, 38, 50);
+
+}
+
+.jumbotron h1 {
+  color: azure;
+}
+
+.jumbotron p {
+  color: azure;
+}
+
+.my-4 {
+  border-color: azure;
+
+}
+.container {
+  padding: 10px;
+  background-color:rgb(249, 236, 239);
+}
