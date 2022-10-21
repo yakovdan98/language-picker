@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/script.js"></script>
   <title>Language Picker</title>
@@ -19,46 +20,43 @@
       <p>Click the button bellow and answer all the questions to see the best language just for you!</p>
       <button class="btn-primary btn-lg" role="button">Take Quiz</button>
     </div>
-    <div class="row">
-      <div class="" id="quiz">
-        <form id="quizForm">
-          <div class="row">
-            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-            <div class="col-sm-10">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  First radio
-                </label>
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  First radio
-                </label>
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  First radio
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  second radio
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                  third radio
-                </label>
-              </div>
-        </form>
-      </div>
+    <div class="hidden" id="quiz">
+      <form class="" id="quizForm">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                First radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                second radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                third radio
+              </label>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="hidden" id="output">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil saepe enim odio sequi aliquid libero, at,
+        laborum, dolores sunt aspernatur eius? Natus voluptas aliquam corporis, saepe facere eaque assumenda dolores.
       </p>
     </div>
-    <div class="row">
 
-    </div>
   </div>
+
 </body>
 
 </html>
