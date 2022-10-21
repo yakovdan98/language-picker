@@ -1,5 +1,5 @@
 function startQuiz() {
-  document.getElementById("jumbotron").setAttribute("class", "jumbotron hidden");
+  document.getElementById("startQuiz").setAttribute("class", "hidden");
   let quiz = document.getElementById("quiz")
   quiz.removeAttribute("class");
   quiz.addEventListener("submit", processData);
