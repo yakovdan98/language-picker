@@ -32,6 +32,7 @@ function processData(event) {
   document.getElementById("outputText").innerText = "You should learn " + languagePicker(answer1, answer2, answer3, answer4, answer5);
 
   document.getElementById("output").removeAttribute("class");
+  document.getElementById("resetOutput").removeAttribute("class");
   document.getElementById("output").addEventListener("reset", changeAnswers);
 }
 
